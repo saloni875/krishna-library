@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-   <footer style={{ backgroundColor: "#c0dcf5ff", color: "#222222ff", padding: "2rem" }}>
+   <footer className="container-sm" style={{ backgroundColor: "#c0dcf5ff", color: "#222222ff", padding: "2rem" }}>
   <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem" }}>
     <h3> <img src="/src/assets/download.jpeg" alt="image" width={50} height={50} /> Krishna Self Study Library</h3>
     <h5>📍 Near Nikhil and Krishna Building Matrials, jangha Road, Rampur Chauraha, Uttar Pradesh - 273202</h5>
@@ -22,6 +22,7 @@ const Footer = () => {
 
     <h6>© {new Date().getFullYear()} Krishna Library. All rights reserved.</h6>
   </div>
+  
 </footer>
   );
 };

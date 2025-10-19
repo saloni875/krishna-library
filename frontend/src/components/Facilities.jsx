@@ -34,7 +34,7 @@ const Facilities = () => {
   return (
     <section className="py-5 bg-light">
       <Container>
-        <h2 className="text-center text-primary mb-4" data-aos="fade-up">Our Facilities</h2>
+        <h2 className="text-center  mb-4" data-aos="fade-up"  style={{color: 'rgba(9, 97, 192, 1)'}}>Our Facilities</h2>
         <Row>
           {facilities.map((item, index) => (
             <Col md={4} sm={6} className="mb-4" key={index}>
@@ -44,7 +44,7 @@ const Facilities = () => {
                 data-aos-delay={index * 600}
               >
                 <Card.Body>
-                  <Card.Title className="text-primary">{item.title}</Card.Title>
+                  <Card.Title  style={{color: 'rgba(9, 97, 192, 1)'}}>{item.title}</Card.Title>
                   <Card.Text>{item.description}</Card.Text>
                 </Card.Body>
               </Card>
